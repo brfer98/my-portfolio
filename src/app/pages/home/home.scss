@@ -1,4 +1,10 @@
 .hero{
+    position: relative;
+    background: url("https://avatars.githubusercontent.com/u/148052925?s=400u=4e47bdb24d3f1cf57ef07b8097c675fc48f1c69d&v=4");
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat; 
+
     padding-bottom: 10em;
     padding-top: 10em;
 
@@ -11,4 +17,16 @@
         padding-bottom: 20em;
         padding-top: 20em;
     }
+}
+
+.hero::before{
+    content: "";
+    position: absolute; 
+    inset: 0; 
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero > * { // selects all children
+    position: relative; 
+    z-index: 1; 
 }

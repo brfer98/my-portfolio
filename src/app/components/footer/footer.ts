@@ -9,5 +9,5 @@ import textos from '../../../assets/data/footer.json';
 })
 export class Footer {
   text = textos;
-
+  svgWidth: number = 30;
 }
