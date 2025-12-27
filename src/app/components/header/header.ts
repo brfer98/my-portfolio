@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import texts from '../../../assets/data/header.json';
 
 @Component({
   selector: 'app-header',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.scss',
 })
 export class Header {
-
+  text = texts;
 }

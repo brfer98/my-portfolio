@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import textos from '../../../assets/data/footer.json';
 
 @Component({
   selector: 'app-footer',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './footer.scss',
 })
 export class Footer {
+  text = textos;
 
 }

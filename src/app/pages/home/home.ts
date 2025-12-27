@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import textos from '../../../assets/data/home.json';
 
 @Component({
   selector: 'app-home',
@@ -8,10 +9,7 @@ import { Component } from '@angular/core';
 })
 export class Home {
 	fecha = new Date().getDate();
-
-	ngOnInit(){
-	
-	}
+	text = textos;
 }
 
 
