@@ -5,13 +5,13 @@
             "role": "FullStack Web Developer",
             "slogan": "Este es mi slogan. Luego lo haré más elaborado",
             "buttons": {
-                "cv": "desacrgar cv",
-                "contact": "contactame"
+                "cv": "Descargar CV",
+                "contact": "Contáctame"
             }
         },
         "technologies":{
-            "subtitle": "minititulo",
-            "title": "titulo",
+            "subtitle": "minititulo tecnologias",
+            "title": "titulo tecnologias",
             "langauges":[
                 "JavaScript",
                 "PHP",
@@ -35,8 +35,8 @@
             ]
         },
         "experience":{
-            "subtitle": "minititulo",
-            "title": "titulo",
+            "subtitle": "minititulo exp",
+            "title": "titulo exp",
             "geniot":{
                 "company_name": "Geniot Solution SL",
                 "job_title": "Desarrollador Web FullStack",
