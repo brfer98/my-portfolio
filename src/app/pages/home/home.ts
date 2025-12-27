@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './home.scss',
 })
 export class Home {
+	fecha = new Date().getDate();
 
+	ngOnInit(){
+	
+	}
 }
+
+
