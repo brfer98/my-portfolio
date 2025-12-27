@@ -1,7 +1,19 @@
 $primary: #FFD700;
 $secondary: #000000;
+$dark: #292800;
 $body-bg: #000000;
-$body-color: #ffffff; 
+$body-color: #ffffff; // font color
 
 // Luego importa Bootstrap desde SCSS
 @import "bootstrap/scss/bootstrap";
+
+
+
+svg { 
+    // filter: brightness(0) invert(1); /* convierte todo a blanco */ 
+} 
+svg:hover { 
+    // filter: none; /* vuelve a mostrar los colores originales */ 
+    transform: scale(1.5);
+    transition: 0.6s;
+}
