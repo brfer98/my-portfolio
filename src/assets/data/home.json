@@ -1,5 +1,54 @@
 {
     "es":{
-        "titulo":"wenos dias"
+        "inicio":{
+            "title":"My Portfolio",
+            "role": "FullStack Web Developer",
+            "slogan": "Este es mi slogan. Luego lo haré más elaborado",
+            "buttons": {
+                "cv": "desacrgar cv",
+                "contact": "contactame"
+            }
+        },
+        "technologies":{
+            "subtitle": "minititulo",
+            "title": "titulo",
+            "langauges":[
+                "JavaScript",
+                "PHP",
+                "Java",
+                "C#",
+                "TypeScript"
+            ],
+            "databases":[
+                "SQL"
+            ],
+            "frameworks":[
+                "Angular",
+                "Spring Boot",
+                "Bootstrap 5",
+                "Tailwind CSS"
+            ],
+            "markup":[
+                "HTML",
+                "CSS",
+                "XML"
+            ]
+        },
+        "experience":{
+            "subtitle": "minititulo",
+            "title": "titulo",
+            "geniot":{
+                "company_name": "Geniot Solution SL",
+                "job_title": "Desarrollador Web FullStack",
+                "start_date": "mm-yyyy",
+                "end_date": "mm-yyyy",
+                "responsabilities":{
+                    "task1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptatum doloribus similique, ea cupiditate adipisci facere beatae iure porro quisquam aliquid dicta! Ea placeat exercitationem, alias nemo earum numquam totam?",
+                    "task2": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptatum doloribus similique, ea cupiditate adipisci facere beatae iure porro quisquam aliquid dicta! Ea placeat exercitationem, alias nemo earum numquam totam?",
+                    "task3": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptatum doloribus similique, ea cupiditate adipisci facere beatae iure porro quisquam aliquid dicta! Ea placeat exercitationem, alias nemo earum numquam totam?"
+                }
+
+            }
+        }
     }
 }

@@ -1,5 +1,11 @@
 {
     "es":{
-        "titulo":"titulo-footer"
+        "titlee":"titulo-footer",
+        "subtitle":"subtitle",
+        "contact":{
+            "email": "bruno98fernandez@gmail.com",
+            "linkedin": "mi perifl de linkedin",
+            "github": "mi perifl de github"
+        }
     }
 }
