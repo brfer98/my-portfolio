@@ -1,13 +1,16 @@
 <main class="d-flex flex-column align-items-center bg-primary">
 
 	<!-- inicio -->
-	<section class="container-fluid text-center bg-warning">
-		<h1>{{ text.es.inicio.title }}</h1>
-		<h2>{{ text.es.inicio.role }}</h2>
-		<p>{{ text.es.inicio.slogan }}</p>	
-		<div>
-			<button>{{ text.es.inicio.buttons.cv }}</button>
-			<button>{{ text.es.inicio.buttons.contact }}</button>
+	<section class="container-fluid hero text-center bg-warning">
+		<div class="container pb-5">
+			<h1 class="display-1">{{ text.es.inicio.title }}</h1>
+			<h3 class="display-6">{{ text.es.inicio.role }}</h3>
+			<h6>{{ text.es.inicio.slogan }}</h6>	
+		</div>
+			
+		<div class="d-flex justify-content-center flex-column flex-md-row gap-2 gap-md-5">
+			<button type="button" class="btn btn-primary">{{ text.es.inicio.buttons.cv }}</button>
+			<button type="button" class="btn btn-outline-primary">{{ text.es.inicio.buttons.contact }}</button>
 		</div>	
 	</section>
 
@@ -21,8 +24,8 @@
 
 	 <!-- tecnologias -->
 	<section class="container text-center bg-info">
-		<span>minititulo</span>
-		<h2>titulo seccion</h2>
+		<span>{{ text.es.technologies.subtitle }}</span>
+		<h2>{{ text.es.technologies.title }}</h2>
 		<div class="row">
 			<div class="col d-flex justify-content-center align-items-center">
 				<svg width="60" viewBox="0 0 452 520"><path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52"/><path fill="#ef652a" d="M226 472l149-41 35-394H226"/><path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"/><path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"/></svg>
@@ -64,24 +67,28 @@
 			<div class="col-4 d-flex justify-content-center align-items-center">
 				<svg width="60" fill="none" viewBox="0 0 54 33"><g clip-path="url(#tailwindcss__a)"><path fill="#38bdf8" fill-rule="evenodd" d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z" clip-rule="evenodd"/></g><defs><clipPath id="tailwindcss__a"><path fill="#fff" d="M0 0h54v32.4H0z"/></clipPath></defs></svg>
 			</div>
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<svg width="60" viewBox="0 0 64 64"><path d="M58.2 3.365a29.503 29.503 0 0 1-3.419 6.064A32.094 32.094 0 1 0 9.965 55.372l1.186 1.047a32.08 32.08 0 0 0 52.67-22.253c.875-8.17-1.524-18.51-5.62-30.8zM14.53 55.558a2.744 2.744 0 1 1-.404-3.857 2.744 2.744 0 0 1 .404 3.857zm43.538-9.61c-7.92 10.55-24.83 6.99-35.672 7.502 0 0-1.922.113-3.857.43 0 0 .73-.31 1.663-.663 7.614-2.65 11.213-3.16 15.838-5.54 8.708-4.427 17.322-14.122 19.112-24.2-3.313 9.695-13.373 18.032-22.53 21.418-6.276 2.313-17.614 4.566-17.614 4.566l-.457-.245c-7.714-3.75-7.952-20.457 6.077-25.845 6.143-2.366 12.02-1.067 18.654-2.65 7.084-1.683 15.28-6.99 18.615-13.916 3.73 11.08 8.224 28.422.166 39.15z" fill="#68bd45"/></svg>
+			</div>
 		</div>
 	 </section>
 
 	 <!-- proyectos/experiencia -->
 	 <section class="container bg-danger">
 		<div class="text-center">
-			<span>minititulo</span>
-			<h2>titulo seccion</h2>
+			<span>{{ text.es.experience.subtitle }}</span>
+			<h2>{{ text.es.experience.title }}</h2>
 		</div>
 
 		<div class="container bg-info">
-			<h3>puesto (des fullstack)</h3>
-			<h4>nombre empresa</h4>
-			<span>fecha</span>
-			<ul>
-				<li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptatum doloribus similique, ea cupiditate adipisci facere beatae iure porro quisquam aliquid dicta! Ea placeat exercitationem, alias nemo earum numquam totam?</li>
-				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae autem earum consequatur architecto officiis culpa totam placeat, expedita tempora cum aliquid ex ut repellat blanditiis voluptatum unde sequi deleniti quae.</li>
-				<li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus dolorem quia ad nostrum est animi vel tenetur mollitia ea at recusandae iste incidunt quos earum culpa, sed numquam accusantium nobis.</li>
+			<h3>{{ text.es.experience.geniot.job_title }}</h3>
+			<h4>{{ text.es.experience.geniot.company_name }}</h4>
+			<span>{{ text.es.experience.geniot.start_date }} / {{ text.es.experience.geniot.end_date}}</span>
+
+			<ul class="list-unstyled">
+				<li>{{ text.es.experience.geniot.responsabilities.task1 }}</li>
+				<li>{{ text.es.experience.geniot.responsabilities.task2 }}</li>
+				<li>{{ text.es.experience.geniot.responsabilities.task3 }}.</li>
 			</ul>
 		</div>
 
