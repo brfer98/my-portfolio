@@ -1,11 +1,11 @@
 {
     "es":{
-        "title":"titulo-footer",
-        "subtitle":"subtitle-footer",
+        "title":"Contacto",
+        "subtitle":"Encuéntrame en mis redes profesionales",
         "contact":{
             "email": "bruno98fernandez@gmail.com",
-            "linkedin": "mi perifl de linkedin",
-            "github": "mi perifl de github"
+            "linkedin": "linkedin.com/in/brfdez",
+            "github": "github.com/brfer98"
         }
     }
 }

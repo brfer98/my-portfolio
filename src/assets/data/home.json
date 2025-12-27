@@ -2,16 +2,16 @@
     "es":{
         "inicio":{
             "title":"My Portfolio",
-            "role": "FullStack Web Developer",
-            "slogan": "Este es mi slogan. Luego lo haré más elaborado",
+            "role": "Desarrollador FullStack Junior",
+            "slogan": "Construyendo aplicaciones modernas con pasión y creatividad",
             "buttons": {
                 "cv": "Descargar CV",
                 "contact": "Contáctame"
             }
         },
         "technologies":{
-            "subtitle": "minititulo tecnologias",
-            "title": "titulo tecnologias",
+            "subtitle": "Tecnologías y Herramientas",
+            "title": "Competencias Técnicas",
             "langauges":[
                 "JavaScript",
                 "PHP",
@@ -35,19 +35,21 @@
             ]
         },
         "experience":{
-            "subtitle": "minititulo exp",
-            "title": "titulo exp",
-            "geniot":{
-                "company_name": "Geniot Solution SL",
-                "job_title": "Desarrollador Web FullStack",
-                "start_date": "mm-yyyy",
-                "end_date": "mm-yyyy",
-                "responsabilities":{
-                    "task1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptatum doloribus similique, ea cupiditate adipisci facere beatae iure porro quisquam aliquid dicta! Ea placeat exercitationem, alias nemo earum numquam totam?",
-                    "task2": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptatum doloribus similique, ea cupiditate adipisci facere beatae iure porro quisquam aliquid dicta! Ea placeat exercitationem, alias nemo earum numquam totam?",
-                    "task3": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptatum doloribus similique, ea cupiditate adipisci facere beatae iure porro quisquam aliquid dicta! Ea placeat exercitationem, alias nemo earum numquam totam?"
-                }
-
+            "subtitle": "Trayectoria Profesional",
+            "title": "Experiencia Laboral",
+            "geniot": { 
+                "company_name": "Geniot Solution SL", 
+                "job_title": "Desarrollador Web FullStack", 
+                "start_date": "10-2024", 
+                "end_date": "06-2025", 
+                "responsabilities": {
+                    "task1": "Desarrollo de funcionalidades en la web corporativa y en el ERP de la empresa utilizando HTML, CSS, PHP y JavaScript.", 
+                    "task2": "Implementación de una aplicación web inmobiliaria en Java para la visualización de propiedades con imágenes y características.", 
+                    "task3": "Integración de la API de Cabify mediante GraphQL para recoger y enviar datos al software interno.", 
+                    "task4": "Gestión y administración de bases de datos relacionales con MySQL.", 
+                    "task5": "Comunicación directa con clientes para la planificación y desarrollo de sitios web personalizados.", 
+                    "task6": "Maquetación y desarrollo de sitios web con WordPress, incluyendo la implementación y gestión de tiendas online mediante WooCommerce." 
+                } 
             }
         }
     }
