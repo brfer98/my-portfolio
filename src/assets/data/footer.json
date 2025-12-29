@@ -3,9 +3,18 @@
         "title":"Contacto",
         "subtitle":"Encuéntrame en mis redes profesionales",
         "contact":{
-            "email": "bruno98fernandez@gmail.com",
-            "linkedin": "linkedin.com/in/brfdez",
-            "github": "github.com/brfer98"
+            "email": {
+                "URL":"mailto:bruno98fernandez@gmail.com",
+                "email":"bruno98fernandez@gmail.com"
+            },
+            "linkedin": {
+                "URL":"https://linkedin.com/in/brfdez",
+                "email":"linkedin.com/in/brfdez"
+            },
+            "github": {
+                "URL":"https://github.com/brfer98",
+                "email":"github.com/brfer98"
+            }
         }
     }
 }
