@@ -43,13 +43,10 @@
                 "start_date": "10-2024", 
                 "end_date": "06-2025", 
                 "responsabilities": {
-                    "task1": "Desarrollo de funcionalidades en la web corporativa y en el ERP de la empresa utilizando HTML, CSS, PHP y JavaScript.", 
-                    "task2": "Implementación de una aplicación web inmobiliaria en Java para la visualización de propiedades con imágenes y características.", 
-                    "task3": "Integración de la API de Cabify mediante GraphQL para recoger y enviar datos al software interno.", 
-                    "task4": "Gestión y administración de bases de datos relacionales con MySQL.", 
-                    "task5": "Comunicación directa con clientes para la planificación y desarrollo de sitios web personalizados.", 
-                    "task6": "Maquetación y desarrollo de sitios web con WordPress, incluyendo la implementación y gestión de tiendas online mediante WooCommerce." 
-                } 
+                    "task1": "Desarrollo de soluciones web y ERP utilizando HTML, CSS, JavaScript, PHP y Java, integrando APIs mediante GraphQL y gestionando bases de datos MySQL.",
+                    "task2": "Diseño y creación de sitios web personalizados, incluyendo proyectos WordPress y WooCommerce, con comunicación directa con clientes para definir y ejecutar requisitos."
+                }
+
             }
         }
     }

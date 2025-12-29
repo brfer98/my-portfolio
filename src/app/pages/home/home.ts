@@ -8,7 +8,6 @@ import textos from '../../../assets/data/home.json';
   styleUrl: './home.scss',
 })
 export class Home {
-	fecha = new Date().getDate();
 	text = textos;
 	svgWidth: number = 40;
 }

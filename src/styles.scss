@@ -2,11 +2,11 @@ $primary: #FFD700;
 $secondary: #000000;
 $dark: #1b1f22;
 $body-bg: #000000;
-$body-color: #ffffff; // font color
+$body-color: #ffffff; // font color general
+$info: #A0A7AE;//color texto gris
 
 // Luego importa Bootstrap desde SCSS
 @import "bootstrap/scss/bootstrap";
-
 
 
 svg { 
