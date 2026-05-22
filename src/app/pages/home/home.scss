@@ -4,19 +4,8 @@
     background-position: center;
     background-size: cover;
     background-repeat:  no-repeat; 
-
     padding-bottom: 10em;
     padding-top: 10em;
-
-    @media (min-width: 768px) {
-        padding-bottom: 15em;
-        padding-top: 15em;
-    }
-
-    @media (min-width: 992px) {
-        padding-bottom: 20em;
-        padding-top: 20em;
-    }
 }
 
 .hero::before{
@@ -30,8 +19,3 @@
     position: relative; 
     z-index: 1; 
 }
-
-// div.col{
-//     background-color: red;
-
-// }
