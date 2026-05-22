@@ -23,6 +23,15 @@ svg:hover {
     transition: 0.6s;
 }
 
+.exp-techs {
+    font-size: 0.85em;
+}
+
+.exp-techs:hover {
+    background-color: $primary;
+    color: $dark;
+}
+
 
 html.lenis, html.lenis body {
   height: auto;
