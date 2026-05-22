@@ -17,32 +17,31 @@
 	</section>
 
 
+	<!-- proyectos -->
 
 
-	<!-- proyectos/experiencia -->
-	<section class="container py-5">
+
+	<!-- experiencia -->
+	<section class="container-fluid col-11 col-md-10 col-lg-9 py-5 d-flex flex-column gap-4">
 		<div class="text-center">
 			<span class="text-primary">{{ text.es.experience.subtitle }}</span>
 			<h2>{{ text.es.experience.title }}</h2>
 		</div>
 
-		<div class="container">
-			<h3>{{ text.es.experience.geniot.job_title }}</h3>
-			<h4>{{ text.es.experience.geniot.company_name }}</h4>
-			<!-- <span>{{ text.es.experience.geniot.start_date }} / {{ text.es.experience.geniot.end_date}}</span> -->
+		@for(j of jobs; track $index){
+			<div class="container-fluid border border-info pt-5 pb-3 px-3 px-md-5">
+				<h3>{{ j.job_title }}</h3>
+				<h4>{{ j.company_name }}</h4>
+				<span>{{ j.start_date }} / {{ j.end_date}}</span> 
 
-			<ul class="list-unstyled text-info">
-				<li>
-					<p>{{ text.es.experience.geniot.responsabilities.task1 }}</p>
-				</li>
-				<li>
-					<p>{{ text.es.experience.geniot.responsabilities.task2 }}</p>
-				</li>
-			</ul>
-		</div>
+				<ul class="list-unstyled text-info">
+					@for(jtask of j.responsabilities; track $index){
+						<li>{{ jtask }}</li>
+					}
+				</ul>
+			</div>
+		}
 	 </section>
-
-
 
 	 <!-- tecnologias -->
 	<section class="container text-center py-5">

@@ -37,17 +37,30 @@
         "experience":{
             "subtitle": "Trayectoria Profesional",
             "title": "Experiencia Laboral",
-            "geniot": { 
-                "company_name": "Geniot Solution SL", 
-                "job_title": "Desarrollador Web FullStack", 
-                "start_date": "10-2024", 
-                "end_date": "06-2025", 
-                "responsabilities": {
-                    "task1": "Desarrollo de soluciones web y ERP utilizando HTML, CSS, JavaScript, PHP y Java, integrando APIs mediante GraphQL y gestionando bases de datos MySQL.",
-                    "task2": "Diseño y creación de sitios web personalizados, incluyendo proyectos WordPress y WooCommerce, con comunicación directa con clientes para definir y ejecutar requisitos."
+            "company": [
+                { 
+                    "company_name": "Geniot Solution SL", 
+                    "job_title": "Desarrollador Web FullStack", 
+                    "start_date": "10-2024", 
+                    "end_date": "06-2025", 
+                    "responsabilities": [
+                        "Desarrollo de soluciones web y ERP utilizando HTML, CSS, JavaScript, PHP y Java, integrando APIs mediante GraphQL y gestionando bases de datos MySQL.",
+                        "Diseño y creación de sitios web personalizados, incluyendo proyectos WordPress y WooCommerce, con comunicación directa con clientes para definir y ejecutar requisitos."
+                    ]
+                },
+                { 
+                    "company_name": "ExaFormación", 
+                    "job_title": "Desarrollador FullStack", 
+                    "start_date": "10-2024", 
+                    "end_date": "Actualmente", 
+                    "responsabilities": [
+                        "tarea1",
+                        "tarea2",
+                        "tarea3",
+                        "tarea4"
+                    ]
                 }
-
-            }
+            ]
         }
     }
 }

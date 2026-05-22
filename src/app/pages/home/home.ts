@@ -8,8 +8,9 @@ import textos from '../../../assets/data/home.json';
   styleUrl: './home.scss',
 })
 export class Home {
-	text = textos;
-	svgWidth: number = 40;
+	// datos recibidos del json
+  text = textos;
+  jobs = this.text.es.experience.company.reverse();
+  
+  svgWidth: number = 40;
 }
-
-
