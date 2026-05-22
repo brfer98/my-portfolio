@@ -17,15 +17,17 @@
                 "PHP",
                 "Java",
                 "C#",
-                "TypeScript"
+                "TypeScript",
+                "Python"
             ],
             "databases":[
-                "SQL"
+                "SQL",
+                "PostgreSQL"
             ],
             "frameworks":[
                 "Angular",
                 "Spring Boot",
-                "Bootstrap 5",
+                "Bootstrap",
                 "Tailwind CSS"
             ],
             "markup":[
@@ -46,6 +48,13 @@
                     "responsabilities": [
                         "Desarrollo de soluciones web y ERP utilizando HTML, CSS, JavaScript, PHP y Java, integrando APIs mediante GraphQL y gestionando bases de datos MySQL.",
                         "Diseño y creación de sitios web personalizados, incluyendo proyectos WordPress y WooCommerce, con comunicación directa con clientes para definir y ejecutar requisitos."
+                    ],
+                    "technologies": [
+                        "WordPress",
+                        "MySQL",
+                        "Java",
+                        "JavaScript",
+                        "PHP"
                     ]
                 },
                 { 
@@ -56,6 +65,15 @@
                     "responsabilities": [
                         "Desarrollo de MVP para una plataforma de gestión de subvenciones, construyendo desde cero el backend con Spring Boot, la base de datos en PostgreSQL y la interfaz en React",
                         "Integración de APIs gubernamentales, diseño de arquitectura y trabajo en Scrum para entregar un producto funcional y escalable"
+                    ],
+                    "technologies": [
+                        "Java",
+                        "React",
+                        "Spring Boot",
+                        "Docker",
+                        "Bootstrap",
+                        "Tailwind CSS",
+                        "PostgreSQL"
                     ]
                 }
             ]
