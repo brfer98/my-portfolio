@@ -32,6 +32,13 @@ svg:hover {
     color: $dark;
 }
 
+hr {
+    width: 10em;
+    border-width: 0.25em;
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
 
 html.lenis, html.lenis body {
   height: auto;
