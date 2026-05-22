@@ -32,11 +32,11 @@
 			<div class="container-fluid border border-info pt-5 pb-3 px-3 px-md-5">
 				<h3>{{ j.job_title }}</h3>
 				<h4>{{ j.company_name }}</h4>
-				<span>{{ j.start_date }} / {{ j.end_date}}</span> 
+				<span>{{ j.start_date }} - {{ j.end_date}}</span> 
 
-				<ul class="list-unstyled text-info">
+				<ul class="list-unstyled text-info mt-3">
 					@for(jtask of j.responsabilities; track $index){
-						<li>{{ jtask }}</li>
+						<li>* {{ jtask }}</li>
 					}
 				</ul>
 			</div>

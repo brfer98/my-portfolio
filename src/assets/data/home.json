@@ -54,10 +54,8 @@
                     "start_date": "10-2024", 
                     "end_date": "Actualmente", 
                     "responsabilities": [
-                        "tarea1",
-                        "tarea2",
-                        "tarea3",
-                        "tarea4"
+                        "Desarrollo de MVP para una plataforma de gestión de subvenciones, construyendo desde cero el backend con Spring Boot, la base de datos en PostgreSQL y la interfaz en React",
+                        "Integración de APIs gubernamentales, diseño de arquitectura y trabajo en Scrum para entregar un producto funcional y escalable"
                     ]
                 }
             ]
