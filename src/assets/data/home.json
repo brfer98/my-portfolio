@@ -51,7 +51,7 @@
                 { 
                     "company_name": "ExaFormación", 
                     "job_title": "Desarrollador FullStack", 
-                    "start_date": "10-2024", 
+                    "start_date": "03-2026", 
                     "end_date": "Actualmente", 
                     "responsabilities": [
                         "Desarrollo de MVP para una plataforma de gestión de subvenciones, construyendo desde cero el backend con Spring Boot, la base de datos en PostgreSQL y la interfaz en React",
