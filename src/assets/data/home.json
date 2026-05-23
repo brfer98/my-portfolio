@@ -12,28 +12,15 @@
         "technologies":{
             "subtitle": "Tecnologías y Herramientas",
             "title": "Competencias Técnicas",
-            "langauges":[
-                "JavaScript",
-                "PHP",
+            "description": "AÑADIR UN TEXTO SOBRE MI Y SOBRE LO QUE QUIERO HACER CON MIS CONOCIMIENTIOS",
+            "techs":[
                 "Java",
-                "C#",
-                "TypeScript",
-                "Python"
-            ],
-            "databases":[
-                "SQL",
-                "PostgreSQL"
-            ],
-            "frameworks":[
+                "Python",
                 "Angular",
                 "Spring Boot",
+                "React",
                 "Bootstrap",
                 "Tailwind CSS"
-            ],
-            "markup":[
-                "HTML",
-                "CSS",
-                "XML"
             ]
         },
         "experience":{

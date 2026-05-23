@@ -14,12 +14,16 @@ $font-family-base: 'JetBrains Mono', monospace;
 
 
 
-svg { 
-    // filter: brightness(0) invert(1); /* convierte todo a blanco */ 
+.svg-icon { 
+    width: 4em;
+    
 } 
+svg {
+    transition: all 0.6s ease-in-out;
+}
 svg:hover { 
     // filter: none; /* vuelve a mostrar los colores originales */ 
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: 0.6s;
 }
 
