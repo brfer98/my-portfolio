@@ -33,7 +33,7 @@
 
 		<div class="d-flex flex-column align-items-center gap-3">
 			@for(j of jobs; track $index){
-				<div class="container-fluid d-flex flex-column flex-lg-row align-items-lg-center gap-3 gap-lg-5 border border-info pt-4 pb-2 pb-lg-4 px-3 px-md-5">
+				<div class="container-fluid d-flex flex-column flex-lg-row align-items-lg-center gap-3 gap-lg-5 border border-info pt-4 pb-2 pb-lg-4 px-3 px-md-5 rounded">
 					<div class="col-lg-3">
 						<h3>{{ j.job_title }}</h3>
 						<h6>{{ j.company_name }}</h6>
@@ -73,7 +73,7 @@
 		<div class="container-fluid justify-content-center align-items-center">
 			<div class="contanier d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 gap-lg-5">
 				<div class="container text-info">
-					<span>A lo largo de mi trayectoria, he consolidado un conjunto de herramientas que me permiten abordar el desarrollo de software desde múltiples frentes. Disfruto tanto de la maquetación y el diseño de interfaces fluidas como de la estructuración de bases de datos y la lógica de negocio</span>
+					<span>{{  text.es.technologies.description }}</span>
 				</div>
 
 				<div class="container d-flex justify-content-center align-items-center gap-4 text-center">
