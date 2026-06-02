@@ -2,7 +2,7 @@
     "es":{
         "inicio":{
             "title":"My Portfolio",
-            "role": "Full Stack Developer",
+            "role": "FullStack Developer",
             "slogan": "Desarrollo soluciones full stack con Java, Python y tecnologías web modernas, enfocadas en calidad y escalabilidad",
             "buttons": {
                 "cv": "Descargar CV",
