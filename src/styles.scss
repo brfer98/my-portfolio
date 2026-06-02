@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 $primary: #FFD700;
-$secondary: #000000;
-$dark: #1b1f22;
+$secondary: #1C1B1B; // fondo de tarjetas
+$dark: #0E0E0E; // color de fondo
 $body-bg: #000000;
-$body-color: #ffffff; // font color general
-$info: #A0A7AE;//color texto gris
+
+// fuentes
+$body-color: #ffffff; // color titulos
+$info: #A0A7AE;// color textos
 
 $font-family-base: 'JetBrains Mono', monospace;
 
@@ -15,7 +17,7 @@ $font-family-base: 'JetBrains Mono', monospace;
 
 
 .svg-icon { 
-    width: 4em;
+    width: 3em;
     
 } 
 svg {
