@@ -31,9 +31,9 @@
               }
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ],
             "styles": [
+              "src/tailwind.css",
               "src/styles.scss"
             ]
           },
