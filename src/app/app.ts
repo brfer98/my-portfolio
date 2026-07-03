@@ -1,13 +1,14 @@
 import { AfterViewInit, Component, signal } from '@angular/core';
 import { Home } from './pages/home/home';
 import { Footer } from './components/footer/footer';
+import { Header } from './components/header/header';
 import Lenis from "lenis"
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 @Component({
   selector: 'app-root',
-  imports: [Home, Footer],
+  imports: [Home, Footer, Header],
   templateUrl: './app.html',
   // template: '<h1>ola</h1>',
   styleUrl: './app.scss'
