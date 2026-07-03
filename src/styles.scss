@@ -7,18 +7,21 @@ $dark: #0E0E0E; // color de fondo
 $danger: #252525;
 
 
-
 // fuentes
 $body-color: #ffffff; // color titulos
 $info: #A0A7AE;// color textos
 
 $font-family-base: 'JetBrains Mono', monospace;
 
-
+// html {
+//   background-color: #E5E5F7;
+//   opacity: 0.9;
+//   background: radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#444CF7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #444CF7 2px, #E5E5F7 2px) -1px 0;
+//   background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+// }
 
 .svg-icon { 
-    width: 3em;
-    
+    width: 3em; 
 } 
 svg {
     transition: all 0.6s ease-in-out;
@@ -28,23 +31,6 @@ svg:hover {
     transform: scale(1.1);
     transition: 0.6s;
 }
-
-.exp-techs {
-    font-size: 0.85em;
-}
-
-.exp-techs:hover {
-    background-color: $primary;
-    color: $dark;
-}
-
-hr {
-    width: 10em;
-    border-width: 0.25em;
-    padding: 1em;
-    padding-bottom: 3em;
-}
-
 
 html.lenis, html.lenis body {
   height: auto;
