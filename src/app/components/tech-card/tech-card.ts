@@ -1,9 +1,10 @@
 import { Component, inject, input, computed, Inject } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { NbSurface, NbDisplay } from "@ng-brutalism/ui";
 
 @Component({
   selector: 'app-tech-card',
-  imports: [],
+  imports: [NbSurface, NbDisplay],
   templateUrl: './tech-card.html',
   styleUrl: './tech-card.scss',
 })
