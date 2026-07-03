@@ -1,13 +1,15 @@
 import { afterNextRender, Component } from '@angular/core';
 import textos from '../../../assets/data/home.json';
 import gsap from 'gsap';
+import { Header } from '../../components/header/header';
 import { App } from '../../app';
 import { TechCard } from '../../components/tech-card/tech-card';
+import { NbButton, ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbSurface, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbSection, NbIconButton } from '@ng-brutalism/ui';
 
 
 @Component({
   selector: 'app-home',
-  imports: [TechCard],
+  imports: [Header, TechCard, NbButton, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbSurface, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbSection, NbIconButton],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
@@ -42,7 +44,7 @@ export class Home{
         gsap.from(e, {
           scrollTrigger: {
             trigger: e,
-            start: "top 80%"
+            start: "top 100%" // determina la altura necesaria del elememento para ejecutar la animacion
           },
           opacity: 0,
           y: 20,
