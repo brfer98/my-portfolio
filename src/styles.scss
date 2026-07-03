@@ -1,24 +1,30 @@
-// @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-$primary: #FFD700;
-$secondary: #1C1B1B; // fondo de tarjetas
-$dark: #0E0E0E; // color de fondo
-$danger: #252525;
+:root {
+  --color-primary: #FFD700;
+  --color-secondary: #1C1B1B;
+  --color-background: #E5E5F7;
+
+  --font-primary: 'JetBrains Mono', monospace;
+}
 
 
-// fuentes
-$body-color: #ffffff; // color titulos
-$info: #A0A7AE;// color textos
+body {
+  background-color: var(--color-background);
 
-$font-family-base: 'JetBrains Mono', monospace;
+  /*
+  opacity: 0.5;
+  background: 
+    radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent), 
+    radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent) 25px 25px, 
+    linear-gradient(#444CF7 2px, transparent 2px) 0 -1px, 
+    linear-gradient(90deg, #444CF7 2px, #E5E5F7 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  */
+}
 
-// html {
-//   background-color: #E5E5F7;
-//   opacity: 0.9;
-//   background: radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#444CF7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #444CF7 2px, #E5E5F7 2px) -1px 0;
-//   background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
-// }
+
+
 
 .svg-icon { 
     width: 3em; 
