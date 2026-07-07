@@ -30,6 +30,48 @@
 
 	<!-- proyectos -->
 
+	<section nbStack gap="lg" class="w-3/4" id="experience">
+		
+		<div class="gsap-fade-in text-center">
+			<span nbTitle class="">{{ projects.subtitle }}</span>
+			<h2 nbDisplay class="">{{ projects.title }}</h2>
+		</div>
+
+		<div nbCluster align="stretch" justify="center" class="grid grid-cols-3">
+			@for(p of projects_cards; track $index){
+				<nb-card class="gsap-fade-in">
+					
+					<nb-card-header>
+						<nb-card-title>{{ p.project_title }}</nb-card-title>
+					</nb-card-header>
+
+					<nb-card-content>
+						
+						<div nbMediaFrame ratio="16/9">
+							<img [src]="p.project_img">
+						</div>
+
+						<p>{{ p.project_description }}</p>
+					</nb-card-content>
+
+					<nb-card-footer nbStack>
+						<div nbChipGroup>
+							@for(ptechs of p.technologies; track $index) {
+								<span nbChip tone="pink">{{ ptechs }}</span>
+							}
+						</div>
+						<nb-card-actions>
+							<button nbButton>
+								<a [href]="p.project_link" target="_blank">Ver Codigo</a>
+							</button>
+						</nb-card-actions>
+
+					</nb-card-footer>
+				</nb-card>
+			}
+		</div>
+	 </section>
+
 
 	<!-- experiencia -->
 	<section nbStack gap="lg" class="w-3/4" id="experience">

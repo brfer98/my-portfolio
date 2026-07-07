@@ -24,12 +24,13 @@
             ]
         },
         "projects":{
-            "subtitle": "Tecnologías y Herramientas",
-            "title": "Competencias Técnicas",
+            "subtitle": "Algunos proyectos",
+            "title": "Mis Proyectos",
             "projects": [
                 {
-                    "project_title": "titulo del proyecto",
-                    "project_description": "descripcion del proyecto que he hecho",
+                    "project_title": "titulo del proyecto 1",
+                    "project_description": "descripcion del proyecto 1 que he hecho",
+                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
                     "technologies": [
                         "WordPress",
                         "MySQL",
@@ -37,7 +38,37 @@
                         "JavaScript",
                         "PHP"
                     ],
-                    "project_link": "github.com"
+                    "project_link": "https://github.com/"
+                },
+                {
+                    "project_title": "titulo del proyecto 2",
+                    "project_description": "descripcion del proyecto 2 que he hecho",
+                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
+                    "technologies": [
+                        "WordPress",
+                        "MySQL"
+                    ],
+                    "project_link": "https://github.com/"
+                },
+                {
+                    "project_title": "titulo del proyecto 3",
+                    "project_description": "descripcion del proyecto 3 que he hecho",
+                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
+                    "technologies": [
+                        "WordPress",
+                        "MySQL"
+                    ],
+                    "project_link": "https://github.com/"
+                },
+                {
+                    "project_title": "titulo del proyecto 3",
+                    "project_description": "descripcion del proyecto 3 que he hecho",
+                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
+                    "technologies": [
+                        "WordPress",
+                        "MySQL"
+                    ],
+                    "project_link": "https://github.com/"
                 }
             ]
         },

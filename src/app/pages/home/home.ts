@@ -4,12 +4,12 @@ import gsap from 'gsap';
 import { Header } from '../../components/header/header';
 import { App } from '../../app';
 import { TechCard } from '../../components/tech-card/tech-card';
-import { ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton } from '@ng-brutalism/ui';
+import { ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup } from '@ng-brutalism/ui';
 
 
 @Component({
   selector: 'app-home',
-  imports: [Header, TechCard, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton],
+  imports: [Header, TechCard, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup ],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
@@ -19,6 +19,8 @@ export class Home{
   text = textos;
   jobs = this.text.es.experience.company.reverse();
   techs = this.text.es.technologies.techs;
+  projects = this.text.es.projects;
+  projects_cards = this.text.es.projects.projects;
 
   columnas = new Array(3);
   
