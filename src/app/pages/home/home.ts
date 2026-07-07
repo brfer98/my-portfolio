@@ -46,7 +46,7 @@ export class Home{
         gsap.from(e, {
           scrollTrigger: {
             trigger: e,
-            start: "top 100%" // determina la altura necesaria del elememento para ejecutar la animacion
+            start: "top 80%" // determina la altura necesaria del elememento para ejecutar la animacion
           },
           opacity: 0,
           y: 20,
