@@ -23,6 +23,24 @@
                 "Tailwind CSS"
             ]
         },
+        "projects":{
+            "subtitle": "Tecnologías y Herramientas",
+            "title": "Competencias Técnicas",
+            "projects": [
+                {
+                    "project_title": "titulo del proyecto",
+                    "project_description": "descripcion del proyecto que he hecho",
+                    "technologies": [
+                        "WordPress",
+                        "MySQL",
+                        "Java",
+                        "JavaScript",
+                        "PHP"
+                    ],
+                    "project_link": "github.com"
+                }
+            ]
+        },
         "experience":{
             "subtitle": "Trayectoria Profesional",
             "title": "Experiencia Laboral",
