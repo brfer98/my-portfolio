@@ -1,26 +1,21 @@
-<header>
-    <div class="container-fluid bg-primary">
-        
-        <nav class="navbar navbar-expand-sm justify-content-around">
+<header nbSection class="flex flex-col justify-center items-center">
+    <nav nbSurface class="w-3/4 ">
 
-            <a class="navbar-brand bg-warning" href="">logo</a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div nbSplit ratio="1:3">
+            <div nbSection layout="center" align="center">
 
-            <div class="collapse navbar-collapse bg-danger" id="collapse-navbar">   
-                <div class="container">
-
-                    <ul class="navbar-nav d-flex justify-content-around text-center bg-secondary">
-                        <li class="nav-item">link1</li>
-                        <li class="nav-item">link2</li>
-                        <li class="nav-item">link3</li>
-                        <li class="nav-item">link4</li>
-                    </ul>
-                </div> 
+                <a href="">mi_logo</a>
             </div>
 
-        </nav>
-    </div>
+            <div nbCluster justify="end" class="w-3/4">
+                <div nbSection layout="between" class="w-100">
+                    <a (click)="scrollToExperience()">Experiencia</a>
+                    <a (click)="scrollToStack()">Mi Stack</a>
+                    <a (click)="scrollToProjects()" >Mis Proyectos</a>
+                </div>
+                <button nbButton>Descargar CV</button>
+            </div>
+        </div>
+        
+    </nav>
 </header>
