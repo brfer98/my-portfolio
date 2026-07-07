@@ -4,12 +4,12 @@ import gsap from 'gsap';
 import { Header } from '../../components/header/header';
 import { App } from '../../app';
 import { TechCard } from '../../components/tech-card/tech-card';
-import { NbButton, ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbSurface, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbSection, NbIconButton } from '@ng-brutalism/ui';
+import { ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton } from '@ng-brutalism/ui';
 
 
 @Component({
   selector: 'app-home',
-  imports: [Header, TechCard, NbButton, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbSurface, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbSection, NbIconButton],
+  imports: [Header, TechCard, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
