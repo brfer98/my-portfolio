@@ -1,11 +1,11 @@
-<main class="flex flex-col items-center gap-6">
+<main class="flex flex-col items-center">
 	
 	
 	<!-- hero -->
-	 <div class="hero flex flex-col justify-center">
+	 <div class="hero flex flex-col items-center justify-center h-screen">
 		<app-header></app-header> 
 
-		<section nbSplit ratio="2:1" align="center" gap="lg" class="w-full lg:h-screen">		
+		<section nbSplit ratio="2:1" align="center" gap="lg" class="w-3/4">		
 			<div nbStack gap="2xl">	
 				<div nbStack gap="md">
 					<h1 nbTitle class="hero-fade-in font-mono uppercase text-4xl" style="--nb-title-wave-color: #ff5d8f; --nb-title-wave-width: 10rem; --nb-title-wave-height: 0.75rem;">{{ text.es.inicio.title }}</h1>
@@ -30,7 +30,7 @@
 
 	<!-- proyectos -->
 
-	<section nbStack gap="lg" class="w-3/4" id="experience">
+	<section nbStack justify="center" align="center" gap="2xl" class="w-3/4 h-screen" id="projects">
 		
 		<div class="gsap-fade-in text-center">
 			<span nbTitle class="">{{ projects.subtitle }}</span>
@@ -74,7 +74,7 @@
 
 
 	<!-- experiencia -->
-	<section nbStack gap="lg" class="w-3/4" id="experience">
+	<section nbStack gap="2xl" justify="center" align="center" class="w-3/4 h-screen" id="experience">
 		
 		<div class="gsap-fade-in text-center">
 			<span nbTitle class="">{{ text.es.experience.subtitle }}</span>
@@ -120,7 +120,7 @@
 
 
 	 <!-- tecnologias -->
-	<section class="w-3/4" id="stack">	
+	<section nbStack gap="2xl" justify="center" align="center" class="h-screen w-3/4" id="stack">	
 		<div class="gsap-fade-in text-center">
 			<span nbTitle>{{ text.es.technologies.subtitle }}</span>
 			<h2 nbDisplay>{{ text.es.technologies.title }}</h2>
