@@ -9,3 +9,13 @@ app-header {
     width: 100%;
     z-index: 100;
 }
+
+.card-content-img {
+    position: relative;
+}
+
+.card-status {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+}

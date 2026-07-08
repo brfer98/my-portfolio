@@ -10,19 +10,25 @@
 				<div nbStack gap="md">
 					<h1 nbTitle class="hero-fade-in font-mono uppercase text-4xl" style="--nb-title-wave-color: #ff5d8f; --nb-title-wave-width: 10rem; --nb-title-wave-height: 0.75rem;">{{ text.es.inicio.title }}</h1>
 					<h2 nbDisplay class="hero-fade-in">{{ text.es.inicio.role }}</h2>
-					<h3 nbText size="xl" weight="medium" class="hero-fade-in">{{ text.es.inicio.slogan }}</h3>		
+					<h3 nbText size="xl" tracking="wider" weight="semibold" class="hero-fade-in" tone="subtle">{{ text.es.inicio.slogan }}</h3>		
 				</div>
 		
 				<div nbCluster gap="sm" align="center">
-					<button nbIconButton shape="circle" size="lg" shadow="none" tone="mint" icon="icons/github-icon.svg"></button>
-					<button nbIconButton shape="circle" size="lg" shadow="none" tone="lavender" icon="icons/linkedin-icon.svg"></button>
-					<button nbIconButton shape="circle" size="lg" shadow="none" tone="pink" icon="icons/email-icon.svg"></button>
+					<a [href]="contact.github.URL" target="_blank" style="text-decoration: none;">
+						<button nbIconButton shape="circle" size="lg" shadow="none" tone="mint" icon="icons/github-icon.svg"></button>
+					</a>
+					<a [href]="contact.linkedin.URL" target="_blank" style="text-decoration: none;">
+						<button nbIconButton shape="circle" size="lg" shadow="none" tone="lavender" icon="icons/linkedin-icon.svg"></button>
+					</a>
+					<a [href]="contact.email.URL" style="text-decoration: none;">
+						<button nbIconButton shape="circle" size="lg" shadow="none" tone="pink" icon="icons/email-icon.svg"></button>
+					</a>
 				</div>
 			</div>
 
 			<!-- parte derecha del hero -->
 			<div nbStack align="center">
-				<nb-avatar class="h-75 w-75" src="https://avatars.githubusercontent.com/u/148052925?v=4" alt="" />
+				<nb-avatar class="h-75 w-75" src="img/img-perfil.jpeg" alt="" />
 			</div>
 		</section>
 	 </div>
@@ -30,7 +36,7 @@
 
 	<!-- proyectos -->
 
-	<section nbStack justify="center" align="center" gap="2xl" class="w-3/4 h-screen" id="projects">
+	<section nbStack justify="center" align="center" gap="2xl" class="w-3/4" id="projects">
 		
 		<div class="gsap-fade-in text-center">
 			<span nbTitle class="">{{ projects.subtitle }}</span>
@@ -40,18 +46,19 @@
 		<div nbCluster align="stretch" justify="center" class="grid grid-cols-3">
 			@for(p of projects_cards; track $index){
 				<nb-card class="gsap-fade-in">
-					
-					<nb-card-header>
-						<nb-card-title>{{ p.project_title }}</nb-card-title>
-					</nb-card-header>
-
-					<nb-card-content>
-						
-						<div nbMediaFrame ratio="16/9">
+				
+					<nb-card-content nbStack>		
+						<div class="card-content-img" nbMediaFrame ratio="16/9">
 							<img [src]="p.project_img">
 						</div>
 
-						<p>{{ p.project_description }}</p>
+						<div nbSurface tone="yellow" class="card-status flex items-center gap-2 px-4 py-2">
+							<!-- <span nbStatusDot state="online"></span> -->
+							<span>{{ p.project_category }}</span>
+						</div>
+
+						<nb-card-title nbDisplay size="sm">{{ p.project_title }}</nb-card-title>
+						<span nbText tone="subtle" tracking="wider">{{ p.project_description }}</span>
 					</nb-card-content>
 
 					<nb-card-footer nbStack>
@@ -60,10 +67,15 @@
 								<span nbChip tone="pink">{{ ptechs }}</span>
 							}
 						</div>
-						<nb-card-actions>
-							<button nbButton>
-								<a [href]="p.project_link" target="_blank">Ver Codigo</a>
-							</button>
+						<nb-card-actions nbStack>
+							@if(p.project_link !== null) {
+									<a [href]="p.project_link" target="_blank">
+										<button nbButton>
+											Ver Codigo
+											<span nbIcon src="/icons/github-icon.svg" decorative></span>
+										</button>
+									</a>
+							}
 						</nb-card-actions>
 
 					</nb-card-footer>
@@ -91,7 +103,12 @@
 							<nb-card-header>
 								<nb-card-title>{{ j.company_name }}</nb-card-title>
 								<h3 nbDisplay class="[--nb-display-size:2rem] md:[--nb-display-size:3rem]">{{ j.job_title }}</h3>
-								<span nbText size="xl" class="text-info">{{ j.start_date }} - {{ j.end_date}}</span> 
+
+								<!-- fechas -->
+								 <div>
+									 <span nbBadge >{{ j.start_date }} - {{ j.end_date}}</span> 
+								 </div>
+							
 							</nb-card-header>
 						</div>
 
@@ -101,7 +118,7 @@
 								<div>
 									<ul class="list-unstyled text-info">
 										@for(jtask of j.responsabilities; track $index){
-											<li>* {{ jtask }}</li>
+											<li nbText tone="subtle" tracking="wider">* {{ jtask }}</li>
 										}
 									</ul>
 								</div>
@@ -131,7 +148,7 @@
 				
 			<!-- izquierda -->
 				<div nbStack justify="center" class="gsap-fade-in">
-					<span nbText size="xl">{{  text.es.technologies.description }}</span>
+					<span nbText leading="relaxed" size="lg" nbText tone="subtle" tracking="wider">{{  text.es.technologies.description }}</span>
 				</div>
 
 			<!-- derecha -->
