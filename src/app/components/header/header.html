@@ -1,19 +1,20 @@
 <header nbSection class="flex flex-col justify-center items-center">
     <nav nbSurface class="w-3/4 ">
 
-        <div nbSplit ratio="1:3">
+        <div nbCluster justify="center">
             <div nbSection layout="center" align="center">
-
-                <a href="">mi_logo</a>
+                <a nbIcon src="/icons/github-icon.svg" size="xl" decorative></a>
             </div>
 
             <div nbCluster justify="end" class="w-3/4">
                 <div nbSection layout="between" class="w-100">
-                    <a (click)="scrollToProjects()" >Mis Proyectos</a>
-                    <a (click)="scrollToExperience()">Experiencia</a>
-                    <a (click)="scrollToStack()">Mi Stack</a>
+                    <a (click)="scrollToProjects()" nbText size="xl" weight="extrabold">Proyectos</a>
+                    <a (click)="scrollToExperience()" nbText size="xl" weight="extrabold">Mi Experiencia</a>
+                    <a (click)="scrollToStack()" nbText size="xl" weight="extrabold">Mi Stack</a>
                 </div>
-                <button nbButton>Descargar CV</button>
+                <button nbButton>
+                    <span nbText size="xl" weight="extrabold">Descargar CV</span>
+                </button>
             </div>
         </div>
         

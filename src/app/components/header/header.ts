@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import texts from '../../../assets/data/header.json';
 import { App } from '../../app';
-import { NbSection, NbSurface, NbSplit, NbButton, NbCluster } from "@ng-brutalism/ui";
+import { NbSection, NbSurface, NbSplit, NbButton, NbCluster, NbIcon, NbText } from "@ng-brutalism/ui";
 
 @Component({
   selector: 'app-header',
-  imports: [NbSection, NbSurface, NbSplit, NbButton, NbCluster],
+  imports: [NbSection, NbSurface, NbSplit, NbButton, NbCluster, NbIcon, NbText],
   templateUrl: './header.html',
   styleUrl: './header.scss',
 })
