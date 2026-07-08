@@ -1,6 +1,6 @@
 {
-    "es":{
-        "inicio":{
+    "es": {
+        "inicio": {
             "title":"My Portfolio",
             "role": "FullStack Developer",
             "slogan": "Desarrollo soluciones full stack con Java, Python y tecnologías web modernas, enfocadas en calidad y escalabilidad",
@@ -9,11 +9,25 @@
                 "contact": "Contáctame"
             }
         },
-        "technologies":{
+        "contact": {
+            "email": {
+                "URL":"mailto:bruno98fernandez@gmail.com",
+                "email":"bruno98fernandez@gmail.com"
+            },
+            "linkedin": {
+                "URL":"https://linkedin.com/in/brfdez",
+                "email":"linkedin.com/in/brfdez"
+            },
+            "github": {
+                "URL":"https://github.com/brfer98",
+                "email":"github.com/brfer98"
+            }
+        },
+        "technologies": {
             "subtitle": "Tecnologías y Herramientas",
             "title": "Competencias Técnicas",
             "description": "A lo largo de mi trayectoria, he consolidado un conjunto de herramientas que me permiten abordar el desarrollo de software desde múltiples frentes. Disfruto tanto de la maquetación y el diseño de interfaces fluidas como de la estructuración de bases de datos y la lógica de negocio",
-            "techs":[
+            "techs": [
                 "Java",
                 "Python",
                 "Angular",
@@ -23,9 +37,9 @@
                 "Tailwind CSS"
             ]
         },
-        "projects":{
-            "subtitle": "Algunos proyectos",
-            "title": "Mis Proyectos",
+        "projects": {
+            "subtitle": "Trabajo Real y Personal",
+            "title": "Proyectos Destacados",
             "projects": [
                 {
                     "project_title": "titulo del proyecto 1",
@@ -38,7 +52,10 @@
                         "JavaScript",
                         "PHP"
                     ],
-                    "project_link": "https://github.com/"
+                    "project_link": null,
+                    "project_category": "ExaFromacion",
+                    "available": false,
+                    "state": "offline"
                 },
                 {
                     "project_title": "titulo del proyecto 2",
@@ -48,7 +65,10 @@
                         "WordPress",
                         "MySQL"
                     ],
-                    "project_link": "https://github.com/"
+                    "project_link": null,
+                    "project_category": "Geniot SL",
+                    "available": false,
+                    "state": "offline"
                 },
                 {
                     "project_title": "titulo del proyecto 3",
@@ -58,7 +78,10 @@
                         "WordPress",
                         "MySQL"
                     ],
-                    "project_link": "https://github.com/"
+                    "project_link": "https://github.com/",
+                    "project_category": "Proyecto Personal",
+                    "available": true,
+                    "state": "live"
                 },
                 {
                     "project_title": "titulo del proyecto 3",
@@ -68,11 +91,27 @@
                         "WordPress",
                         "MySQL"
                     ],
-                    "project_link": "https://github.com/"
+                    "project_link": "https://github.com/",
+                    "project_category": "Proyecto Personal",
+                    "available": true,
+                    "state": "live"
+                },
+                {
+                    "project_title": "titulo del proyecto 3",
+                    "project_description": "descripcion del proyecto 3 que he hecho",
+                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
+                    "technologies": [
+                        "WordPress",
+                        "MySQL"
+                    ],
+                    "project_link": "https://github.com/",
+                    "project_category": "Proyecto Personal",
+                    "available": true,
+                    "state": "online"
                 }
             ]
         },
-        "experience":{
+        "experience": {
             "subtitle": "Trayectoria Profesional",
             "title": "Experiencia Laboral",
             "company": [
@@ -97,7 +136,7 @@
                     "company_name": "ExaFormación", 
                     "job_title": "Desarrollador FullStack", 
                     "start_date": "03-2026", 
-                    "end_date": "Actualmente", 
+                    "end_date": "06-2026", 
                     "responsabilities": [
                         "Desarrollo de MVP para una plataforma de gestión de subvenciones, construyendo desde cero el backend con Spring Boot, la base de datos en PostgreSQL y la interfaz en React",
                         "Integración de APIs gubernamentales, diseño de arquitectura y trabajo en Scrum para entregar un producto funcional y escalable"
