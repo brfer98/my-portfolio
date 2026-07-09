@@ -5,12 +5,12 @@ import { Header } from '../../components/header/header';
 import { App } from '../../app';
 import { TechCard } from '../../components/tech-card/tech-card';
 import { HomeInterfaceTs } from './models/home.interface.ts';
-import { ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbStatusDot, NbBadge, NbStat, NbSurface } from '@ng-brutalism/ui';
+import { ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbBadge, NbSurface } from '@ng-brutalism/ui';
 
 
 @Component({
   selector: 'app-home',
-  imports: [Header, TechCard, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbStatusDot, NbBadge, NbStat, NbSurface],
+  imports: [Header, TechCard, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbBadge, NbSurface],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
@@ -51,7 +51,7 @@ export class Home implements OnInit{
         gsap.from(e, {
           scrollTrigger: {
             trigger: e,
-            start: "top 80%" // determina la altura necesaria del elememento para ejecutar la animacion
+            start: "top 90%" // determina la altura necesaria del elememento para ejecutar la animacion
           },
           opacity: 0,
           y: 20,
