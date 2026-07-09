@@ -1,11 +1,10 @@
-<main class="flex flex-col items-center">
-	
+<main class="flex flex-col items-center gap-[10vw]">
 	
 	<!-- hero -->
-	 <div class="hero flex flex-col items-center justify-center h-screen">
-		<app-header></app-header> 
+	 <div class="hero relative flex flex-col items-center justify-center md:h-screen">
+		<app-header class="sm:relative md:absolute top-0 left-0 w-full z-100"></app-header> 
 
-		<section nbSplit ratio="2:1" align="center" gap="lg" class="w-3/4">		
+		<section nbSplit ratio="2:1" align="start" gap="lg" collapse="lg" class="w-3/4">		
 			<div nbStack gap="2xl">	
 				<div nbStack gap="md">
 					<h1 nbTitle class="hero-fade-in font-mono uppercase text-4xl" style="--nb-title-wave-color: #ff5d8f; --nb-title-wave-width: 10rem; --nb-title-wave-height: 0.75rem;">{{ text.es.inicio.title }}</h1>
@@ -13,7 +12,8 @@
 					<h3 nbText size="xl" tracking="wider" weight="semibold" class="hero-fade-in" tone="subtle">{{ text.es.inicio.slogan }}</h3>		
 				</div>
 		
-				<div nbCluster gap="sm" align="center">
+				<!-- <div nbCluster gap="sm" align="center" class="border" justify="center" lg:justify="start"> -->
+				<div class="flex justify-center md:justify-start gap-3">
 					<a [href]="contact.github.URL" target="_blank" style="text-decoration: none;">
 						<button nbIconButton shape="circle" size="lg" shadow="none" tone="mint" icon="icons/github-icon.svg"></button>
 					</a>
@@ -43,42 +43,48 @@
 			<h2 nbDisplay class="">{{ projects.title }}</h2>
 		</div>
 
-		<div nbCluster align="stretch" justify="center" class="grid grid-cols-3">
+		<div nbCluster align="stretch" justify="center" class="grid md:grid-cols-2 lg:grid-cols-3">
 			@for(p of projects_cards; track $index){
 				<nb-card class="gsap-fade-in">
 				
-					<nb-card-content nbStack>		
+					<nb-card-content nbStack class="relative">		
 						<div class="card-content-img" nbMediaFrame ratio="16/9">
 							<img [src]="p.project_img">
 						</div>
 
 						<div nbSurface tone="yellow" class="card-status flex items-center gap-2 px-4 py-2">
 							<!-- <span nbStatusDot state="online"></span> -->
-							<span>{{ p.project_category }}</span>
+							<span nbText size="lg" weight="extrabold">{{ p.project_category }}</span>
 						</div>
 
 						<nb-card-title nbDisplay size="sm">{{ p.project_title }}</nb-card-title>
-						<span nbText tone="subtle" tracking="wider">{{ p.project_description }}</span>
+						<span nbText tone="subtle" tracking="wider" class="text-left">{{ p.project_description }}</span>
 					</nb-card-content>
 
 					<nb-card-footer nbStack>
+					<!-- <nb-card-footer class="border flex flex-col items-center md:items-start"> -->
+
+						<!-- technologies -->
 						<div nbChipGroup>
 							@for(ptechs of p.technologies; track $index) {
 								<span nbChip tone="pink">{{ ptechs }}</span>
 							}
 						</div>
-						<nb-card-actions nbStack>
+
+						<!-- button -->
+						<nb-card-actions class="">
 							@if(p.project_link !== null) {
 									<a [href]="p.project_link" target="_blank">
 										<button nbButton>
-											Ver Codigo
-											<span nbIcon src="/icons/github-icon.svg" decorative></span>
+											<span nbIcon src="/icons/github-icon.svg" decorative></span>Ver Codigo
 										</button>
 									</a>
 							}
 						</nb-card-actions>
 
 					</nb-card-footer>
+
+					
 				</nb-card>
 			}
 		</div>
@@ -86,7 +92,7 @@
 
 
 	<!-- experiencia -->
-	<section nbStack gap="2xl" justify="center" align="center" class="w-3/4 h-screen" id="experience">
+	<section nbStack gap="2xl" justify="center" align="center" class="w-3/4 lg:h-screen" id="experience">
 		
 		<div class="gsap-fade-in text-center">
 			<span nbTitle class="">{{ text.es.experience.subtitle }}</span>
@@ -96,7 +102,7 @@
 		<div nbStack gap="lg">
 			@for(j of jobs; track $index){
 				<nb-card class="gsap-fade-in" >
-					<div nbSplit ratio="1:1">
+					<div nbSplit ratio="1:2" collapse="lg" class="text-left">
 
 						<!-- izquierda -->
 						<div nbStack justify="center">
@@ -118,7 +124,7 @@
 								<div>
 									<ul class="list-unstyled text-info">
 										@for(jtask of j.responsabilities; track $index){
-											<li nbText tone="subtle" tracking="wider">* {{ jtask }}</li>
+											<li nbText tone="subtle" tracking="wider" >* {{ jtask }}</li>
 										}
 									</ul>
 								</div>
@@ -137,17 +143,17 @@
 
 
 	 <!-- tecnologias -->
-	<section nbStack gap="2xl" justify="center" align="center" class="h-screen w-3/4" id="stack">	
+	<section nbStack gap="2xl" justify="center" align="center" class="lg:h-screen w-3/4" id="stack">	
 		<div class="gsap-fade-in text-center">
 			<span nbTitle>{{ text.es.technologies.subtitle }}</span>
 			<h2 nbDisplay>{{ text.es.technologies.title }}</h2>
 		</div>
 
-		<div class="container-fluid justify-content-center align-items-center">
-			<div nbSplit ratio="1:1">
+		<div class="">
+			<div nbSplit ratio="1:1" collapse="lg">
 				
 			<!-- izquierda -->
-				<div nbStack justify="center" class="gsap-fade-in">
+				<div nbStack justify="center" class="gsap-fade-in text-left">
 					<span nbText leading="relaxed" size="lg" nbText tone="subtle" tracking="wider">{{  text.es.technologies.description }}</span>
 				</div>
 
