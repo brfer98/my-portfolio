@@ -42,70 +42,92 @@
             "title": "Proyectos Destacados",
             "projects": [
                 {
-                    "project_title": "titulo del proyecto 1",
-                    "project_description": "descripcion del proyecto 1 que he hecho",
+                    "project_title": "Análisis de Siniestralidad Ciclista",
+                    "project_description": "Aplicación backend desarrollada en Java para analizar grandes conjuntos de datos sobre siniestralidad ciclista. El proyecto sigue una arquitectura de tres capas y aplica principios SOLID, programación funcional con Streams y Java NIO para construir una solución eficiente, escalable y fácil de mantener.",
                     "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
                     "technologies": [
-                        "WordPress",
-                        "MySQL",
                         "Java",
+                        "Maven",
+                        "Lombok"
+                    ],
+                    "project_link": "https://github.com/brfer98/estudio-movilidad-ciclista-madrid",
+                    "project_category": "Proyecto Personal",
+                    "available": false,
+                    "state": "offline"
+                },
+                {
+                    "project_title": "Plataforma de Gestión de Subvenciones",
+                    "project_description": "Desarrollo de un MVP para digitalizar la gestión de subvenciones públicas. Participé en el diseño de la arquitectura backend, el desarrollo de APIs REST, el modelado de la base de datos y la implementación del frontend en React, trabajando bajo metodología Scrum.",
+                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
+                    "technologies": [
+                        "Java",
+                        "Spring Boot",
+                        "React",
+                        "PostgreSQL",
+                        "Docker",
+                        "Git"
+                    ],
+                    "project_link": null,
+                    "project_category": "ExaFormacion",
+                    "available": false,
+                    "state": "offline"
+                },
+                {
+                    "project_title": "E-commerce B2B para Restauración Premium",
+                    "project_description": "Diseño y desarrollo de una web corporativa con WooCommerce orientada al sector de la restauración. Definí la identidad visual del sitio mediante tipografías, colores e imágenes para transmitir una imagen exclusiva, además de editar el vídeo principal, configurar productos e implementar formularios y optimizaciones básicas de SEO.",
+                    "project_img": "/img/armar-img.png",
+                    "technologies": [
+                        "WordPress",
+                        "Elementor",
+                        "WooCommerce",
+                        "SEO"
+                    ],
+                    "project_link": "https://armar.es",
+                    "project_category": "Geniot Solution",
+                    "available": true,
+                    "state": "online"
+                },
+                {
+                    "project_title": "Plataforma Web para una Red de Colegios",
+                    "project_description": "Participé en el diseño y desarrollo de la primera web de una congregación educativa compuesta por seis colegios. Colaboré con los clientes para organizar una gran cantidad de contenido y desarrollé una sección dinámica con Handlebars.js que permitía mostrar todos los centros educativos de forma reutilizable.",
+                    "project_img": "/img/filipenses-img.png",
+                    "technologies": [
+                        "WordPress",
+                        "Elementor",
+                        "Handlebars.js",
                         "JavaScript",
-                        "PHP"
+                        "SEO"
                     ],
-                    "project_link": null,
-                    "project_category": "ExaFromacion",
+                    "project_link": "https://filipensesbaeza.com",
+                    "project_category": "Geniot Solution",
+                    "available": true,
+                    "state": "online"
+                },
+                {
+                    "project_title": "Web Corporativa para Empresa de Ventilación",
+                    "project_description": "Diseñé y desarrollé desde cero la página web corporativa de una empresa especializada en instalaciones de ventilación. Definí la estructura, la experiencia de usuario y la identidad visual del sitio para transmitir una sensación de limpieza y pureza alineada con la actividad de la empresa.",
+                    "project_img": "/img/instalvac-img.png",
+                    "technologies": [
+                        "WordPress",
+                        "Elementor",
+                        "SEO"
+                    ],
+                    "project_link": "https://instalvac.com/",
+                    "project_category": "Geniot Solution",
                     "available": false,
                     "state": "offline"
                 },
                 {
-                    "project_title": "titulo del proyecto 2",
-                    "project_description": "descripcion del proyecto 2 que he hecho",
-                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
+                    "project_title": "Web para Restaurante Asiático",
+                    "project_description": "Diseñé íntegramente la página web de un restaurante de cocina asiática, definiendo la estructura, la identidad visual y la experiencia de usuario para reflejar la personalidad del negocio. El proyecto se desarrolló con un enfoque responsive e incluyó formularios de contacto y optimizaciones básicas de SEO.",
+                    "project_img": "/img/ortiz-sushi-img.png",
                     "technologies": [
                         "WordPress",
-                        "MySQL"
+                        "Elementor",
+                        "SEO"
                     ],
-                    "project_link": null,
-                    "project_category": "Geniot SL",
-                    "available": false,
-                    "state": "offline"
-                },
-                {
-                    "project_title": "titulo del proyecto 3",
-                    "project_description": "descripcion del proyecto 3 que he hecho",
-                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
-                    "technologies": [
-                        "WordPress",
-                        "MySQL"
-                    ],
-                    "project_link": "https://github.com/",
-                    "project_category": "Proyecto Personal",
-                    "available": true,
-                    "state": "live"
-                },
-                {
-                    "project_title": "titulo del proyecto 3",
-                    "project_description": "descripcion del proyecto 3 que he hecho",
-                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
-                    "technologies": [
-                        "WordPress",
-                        "MySQL"
-                    ],
-                    "project_link": "https://github.com/",
-                    "project_category": "Proyecto Personal",
-                    "available": true,
-                    "state": "live"
-                },
-                {
-                    "project_title": "titulo del proyecto 3",
-                    "project_description": "descripcion del proyecto 3 que he hecho",
-                    "project_img": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
-                    "technologies": [
-                        "WordPress",
-                        "MySQL"
-                    ],
-                    "project_link": "https://github.com/",
-                    "project_category": "Proyecto Personal",
+                    "project_link": "https://ortizsushi.es",
+                    "project_category": "Geniot Solution",
                     "available": true,
                     "state": "online"
                 }
