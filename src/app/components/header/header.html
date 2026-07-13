@@ -1,22 +1,34 @@
-<header nbSection class="flex flex-col justify-center items-center">
-    <nav nbSurface class="w-3/4 ">
-
-        <div nbCluster justify="center">
-            <div nbSection layout="center" align="center">
-                <a nbIcon src="/icons/github-icon.svg" size="xl" decorative></a>
-            </div>
-
-            <div nbCluster justify="end" class="w-3/4">
-                <div nbSection layout="between" class="w-100">
-                    <a (click)="scrollToProjects()" nbText size="xl" weight="extrabold">Proyectos</a>
-                    <a (click)="scrollToExperience()" nbText size="xl" weight="extrabold">Mi Experiencia</a>
-                    <a (click)="scrollToStack()" nbText size="xl" weight="extrabold">Mi Stack</a>
+<header>
+    <nav nbSection class="flex justify-center items-center">
+        <div nbSurface class="w-full lg:w-3/4 ">
+            
+            <div nbCluster justify="center">
+                <div nbSection layout="center" align="center">
+                    <a href="/" nbIcon src="mi_favicon.svg" size="xl" decorative></a>
                 </div>
-                <button nbButton>
-                    <span nbText size="xl" weight="extrabold">Descargar CV</span>
+
+                <!-- boton desplegable -->
+                <button (click)="toggleMenu()" command="--toggle" commandfor="menu-drop" type="button" class="lg:hidden" aria-controls="navbar-default" aria-expanded="false" [attr.aria-expanded]="isMenuOpen()">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
                 </button>
+                
+                <div nbCluster justify="end" id="menu-drop" 
+                [class]="isMenuOpen() ? 'flex flex-col w-full m-4' : 'hidden lg:flex'" class="lg:w-3/4 lg:flex-row lg:justify-end lg:items-center">
+                    <div nbSection layout="between" class="w-100"
+                     [class]="isMenuOpen() ? 'flex flex-col w-full text-center' : 'hidden lg:flex'">
+                        <a (click)="scrollToProjects()" nbText size="xl" weight="extrabold">Proyectos</a>
+                        <a (click)="scrollToExperience()" nbText size="xl" weight="extrabold">Mi Experiencia</a>
+                        <a (click)="scrollToStack()" nbText size="xl" weight="extrabold">Mi Stack</a>
+                    </div>
+                    <button nbButton tone="pink">
+                        <span nbText size="xl" weight="extrabold">
+                            <a href="docs/BrunoFernandezCV.pdf" target="_blank">Descargar CV</a>
+                        </span>
+                    </button>
+                </div>
             </div>
+            
         </div>
-        
     </nav>
 </header>
