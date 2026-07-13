@@ -3,3 +3,32 @@
     right: 1em;
     top: 0.5em;
 }
+
+.bg-patern {
+    background-color: var(--ng-secondary);
+    position: relative; 
+    min-height: 100vh;
+}
+
+.bg-pattern::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+
+    background-color: #E5E5F7;
+    opacity: 0.2;
+    background-image: radial-gradient(var(--nb-secondary) 2.7px, #E5E5F7 2.7px);
+    background-size: 27px 27px;
+    mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 75%);
+    -webkit-mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 75%);
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+
+    opacity: 0.25; 
+}

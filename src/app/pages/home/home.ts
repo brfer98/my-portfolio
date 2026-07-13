@@ -5,12 +5,12 @@ import { Header } from '../../components/header/header';
 import { App } from '../../app';
 import { TechCard } from '../../components/tech-card/tech-card';
 import { HomeInterfaceTs } from './models/home.interface.ts';
-import { ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbBadge, NbSurface } from '@ng-brutalism/ui';
+import { ɵNbBorderCapability, NbText, NbSplit, NbStack, NbAvatar, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbBadge, NbSurface, NbSticker, NbHalftone } from '@ng-brutalism/ui';
 
 
 @Component({
   selector: 'app-home',
-  imports: [Header, TechCard, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbBadge, NbSurface],
+  imports: [Header, TechCard, ɵNbBorderCapability, NbText, NbSplit, NbAvatar, NbStack, NbDisplay, NbCluster, NbChip, NbTitle, NbCard, NbCardTitle, NbCardHeader, NbCardContent, NbIconButton, NbCardActions, NbCardFooter, NbButton, NbMediaFrame, NbChipGroup, NbIcon, NbBadge, NbSurface, NbSticker, NbHalftone],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
