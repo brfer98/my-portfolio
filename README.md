@@ -1,59 +1,84 @@
-# myPortfolio
+# Portfolio Personal
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+Este proyecto es un portfolio personal desarrollado con Angular 21, Tailwind CSS y una estética neobrutalista inspirada en la librería @ng-brutalism/ui. Su propósito es presentar proyectos, experiencia, tecnologías y datos de contacto de forma visual, moderna y dinámica.
 
-## Development server
+## Características
 
-To start a local development server, run:
+- Diseño moderno con enfoque neobrutalista
+- Integración de Tailwind CSS para el estilado
+- Animaciones suaves con GSAP y Lenis
+- Estructura modular basada en componentes de Angular
+- Datos del contenido gestionados desde archivos JSON
+- Compatibilidad con renderizado del lado del servidor (SSR)
+
+## Tecnologías utilizadas
+
+- Angular 21
+- Tailwind CSS
+- @ng-brutalism/ui
+- GSAP
+- Lenis
+- TypeScript
+- Angular SSR
+
+## Requisitos
+
+- Node.js 20 o superior
+- npm 10 o superior
+
+## Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone <url-del-repo>
+   ```
+
+2. Entra en la carpeta del proyecto:
+   ```bash
+   cd my-portfolio
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+## Ejecución local
+
+Inicia el servidor de desarrollo:
 
 ```bash
-ng serve
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abre tu navegador en:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Scripts disponibles
 
-```bash
-ng generate --help
+- `npm start` — inicia la app en modo desarrollo
+- `npm run build` — genera la build de producción
+- `npm test` — ejecuta las pruebas unitarias
+- `npm run serve:ssr:portfolio-bruno` — levanta la versión SSR
+
+## Estructura del proyecto
+
+```text
+src/
+  app/
+    components/
+    pages/
+    assets/
+  assets/data/
 ```
 
-## Building
+## Contacto
 
-To build the project run:
+Si quieres colaborar, contactarme o ver más trabajo, puedes hacerlo a través de los enlaces disponibles en la web.
 
-```bash
-ng build
-```
+## Licencia
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este proyecto es de uso personal y de demostración.
