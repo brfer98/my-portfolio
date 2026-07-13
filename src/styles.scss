@@ -2,29 +2,34 @@
 
 :root {
   --color-primary: #FFD700;
+  --color-dots-first: #fff1a1;
+  --color-dots-sec: #ffced2;
+
   --color-secondary: #1C1B1B;
-  --color-background: #E5E5F7;
+  --color-background: #ffdada;
+
+  // paleta de colores
+  // --nb-background: #F9C74F;
+  // --nb-background: #fffaf0;
+  --nb-background: #fffaf0;
+  --nb-primary: #F1FAEE;
+  --nb-secondary: #1D3557;
+  --nb-accent: #A8DADC;
+  --nb-danger: #E63946;
+  --nb-success: #2A9D8F;
+  --nb-warning: #FF6F61;
+
+  --nb-card-bg: var(--nb-primary);
+
 
   --font-primary: 'JetBrains Mono', monospace;
 }
 
-
 body {
-  background-color: var(--color-background);
-
-  /*
-  opacity: 0.5;
-  background: 
-    radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent), 
-    radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent) 25px 25px, 
-    linear-gradient(#444CF7 2px, transparent 2px) 0 -1px, 
-    linear-gradient(90deg, #444CF7 2px, #E5E5F7 2px) -1px 0;
-  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
-  */
+    background-color: var(--nb-background);
+    position: relative; 
+    min-height: 100vh;
 }
-
-
-
 
 .svg-icon { 
     width: 3em; 
